@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.unite5_gelismis_komutlar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:6:5-28:19
+12        android:allowBackup="true"
+12-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\Ogrenci\.gradle\caches\transforms-3\09dce287f966ede6f56d2bc091f83727\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Unite5_Gelismis_Komutlar" >
+22-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:14:9-62
+23        <activity
+23-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:16:9-24:20
+24            android:name="com.example.unite5_gelismis_komutlar.MainActivity"
+24-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:17:13-41
+25            android:exported="true" >
+25-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:18:13-36
+26            <intent-filter>
+26-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:19:13-23:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:20:17-69
+27-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:22:17-77
+29-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:22:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:25:9-90
+33            android:name="com.example.unite5_gelismis_komutlar.Uyg1Activity"
+33-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:25:19-46
+34            android:label="@string/uyg1btn" />
+34-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:25:47-78
+35        <activity
+35-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:26:9-90
+36            android:name="com.example.unite5_gelismis_komutlar.Uyg2Activity"
+36-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:26:19-46
+37            android:label="@string/uyg2btn" />
+37-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:26:47-78
+38        <activity
+38-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:27:9-92
+39            android:name="com.example.unite5_gelismis_komutlar.Uyg3Activity"
+39-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:27:19-46
+40            android:label="Uyg-3 (Parametre)" />
+40-->C:\Users\Ogrenci\AndroidStudioProjects\Unite5_Gelismis_Komutlar\app\src\main\AndroidManifest.xml:27:47-80
+41    </application>
+42
+43</manifest>
