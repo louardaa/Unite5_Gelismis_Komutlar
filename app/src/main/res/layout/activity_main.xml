@@ -73,4 +73,12 @@
         app:layout_constraintStart_toStartOf="@+id/btn1"
         app:layout_constraintTop_toBottomOf="@+id/btn1" />
 
+    <Button
+        android:id="@+id/uyg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uygulama  7"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="575dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
