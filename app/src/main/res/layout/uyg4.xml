@@ -9,80 +9,80 @@
         android:id="@+id/etextc1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="89dp"
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@+id/etextc3"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/etextc3"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextNumber3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginBottom="372dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="1dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/etextc3"
+        app:layout_constraintTop_toBottomOf="@+id/etextc3" />
 
     <EditText
         android:id="@+id/etextc3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="468dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="39dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/etextc2"
+        app:layout_constraintTop_toBottomOf="@+id/etextc2" />
 
     <Button
         android:id="@+id/btnc1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="65dp"
+        android:layout_marginEnd="92dp"
         android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnc2" />
 
     <EditText
         android:id="@+id/etextc2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="39dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/etextc3"
-        app:layout_constraintEnd_toEndOf="@+id/etextc3" />
+        app:layout_constraintEnd_toEndOf="@+id/etextc1"
+        app:layout_constraintTop_toBottomOf="@+id/etextc1" />
 
     <Button
         android:id="@+id/btnc2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="510dp" />
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="615dp" />
+        app:layout_constraintEnd_toEndOf="@+id/btnc2"
+        app:layout_constraintTop_toBottomOf="@+id/btnc2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="615dp" />
+        app:layout_constraintStart_toStartOf="@+id/btnc1"
+        app:layout_constraintTop_toBottomOf="@+id/btnc1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

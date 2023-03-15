@@ -34,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
         android:layout_marginTop="50dp"
+        android:onClick="uyg6Goster"
         android:text="Uygulama 6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/uyg5" />
@@ -44,6 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginTop="306dp"
+        android:onClick="uyg4Goster"
         android:text="Uygulama 4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

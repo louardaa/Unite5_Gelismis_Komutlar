@@ -41,7 +41,7 @@ public class Uyg4 extends AppCompatActivity {
                 int sayi2;
                 sayi2 = Integer.parseInt(editText2.getText().toString());
                 int sayi3;
-                sayi3 = Integer.parseInt(editText3.getText().toString());
+                sayi3 = Integer.parseInt(editText1.getText().toString());
                 int sonuc = topla(sayi1,sayi2,sayi3);
                 textView.setText(Integer.toString(sonuc));
             }
