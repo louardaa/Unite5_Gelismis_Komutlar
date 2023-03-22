@@ -77,8 +77,22 @@
         android:id="@+id/uyg7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="18dp"
+        android:onClick="uyg7Goster"
         android:text="Uygulama  7"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="575dp" />
+        app:layout_constraintBottom_toTopOf="@+id/uyg8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/uyg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="42dp"
+        android:onClick="uyg8Goster"
+        android:text="Uygulama 8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

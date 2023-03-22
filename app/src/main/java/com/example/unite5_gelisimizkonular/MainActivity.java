@@ -2,11 +2,10 @@ package com.example.unite5_gelisimizkonular;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
+
+import com.example.unite5_gelisimizkonular.Uyg8.Uyg8;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void uyg7Goster(View view) {
         Intent i = new Intent(MainActivity.this, Uyg7.class);
+        startActivity(i);
+    }
+    public void uyg8Goster(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg8.class);
         startActivity(i);
     }
 }
