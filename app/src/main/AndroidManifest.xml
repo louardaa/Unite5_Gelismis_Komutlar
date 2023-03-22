@@ -32,6 +32,8 @@
         <activity android:name=".Uyg8.Uyg8" ></activity>
         <activity android:name=".Uyg9.Uyg9" ></activity>
         <activity android:name=".Uyg10.Uyg10" ></activity>
+        <activity android:name=".Uyg11.Uyg11" ></activity>
+
 
 
 
