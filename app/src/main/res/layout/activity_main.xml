@@ -10,11 +10,10 @@
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
         android:onClick="uyg1Goster"
         android:text="1.Uygulama (Selam Ver)"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,18 +21,18 @@
         android:id="@+id/uyg5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="298dp"
         android:text="Uygulama 5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uyg4" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/uyg6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
         android:onClick="uyg6Goster"
         android:text="Uygulama 6"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,56 +42,66 @@
         android:id="@+id/uyg4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="306dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="17dp"
         android:onClick="uyg4Goster"
         android:text="Uygulama 4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/uyg5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/uyg3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="11dp"
         android:onClick="uyg3Goster"
         android:text="Uygulama 3"
         app:layout_constraintBottom_toTopOf="@+id/uyg4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn2"
-        app:layout_constraintVertical_bias="0.666" />
+        app:layout_constraintStart_toStartOf="@+id/uyg4" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="14dp"
         android:onClick="uyg2Goster"
         android:text="2.Uygulama (Selam Ver)"
-        app:layout_constraintStart_toStartOf="@+id/btn1"
-        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+        app:layout_constraintBottom_toTopOf="@+id/uyg3"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/uyg7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginBottom="18dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
         android:onClick="uyg7Goster"
         android:text="Uygulama  7"
-        app:layout_constraintBottom_toTopOf="@+id/uyg8"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg6" />
 
     <Button
         android:id="@+id/uyg8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
-        android:layout_marginBottom="42dp"
+        android:layout_marginTop="15dp"
         android:onClick="uyg8Goster"
         android:text="Uygulama 8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg7" />
+
+    <Button
+        android:id="@+id/uyg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:onClick="uyg9Goster"
+        android:text="Uygulama 9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

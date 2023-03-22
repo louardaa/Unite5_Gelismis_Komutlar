@@ -6,6 +6,7 @@ import android.view.View;
 import android.content.Intent;
 
 import com.example.unite5_gelisimizkonular.Uyg8.Uyg8;
+import com.example.unite5_gelisimizkonular.Uyg9.Uyg9;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void uyg8Goster(View view) {
         Intent i = new Intent(MainActivity.this, Uyg8.class);
+        startActivity(i);
+    }
+
+    public void uyg9Goster(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg9.class);
         startActivity(i);
     }
 }
