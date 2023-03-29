@@ -6,134 +6,151 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
-        android:onClick="uyg1Goster"
-        android:text="Uygulama 1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/uyg5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="298dp"
-        android:text="Uygulama 5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/uyg6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="17dp"
-        android:onClick="uyg6Goster"
-        android:text="Uygulama 6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uyg5" />
-
-    <Button
-        android:id="@+id/uyg4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="19dp"
-        android:layout_marginBottom="17dp"
-        android:onClick="uyg4Goster"
-        android:text="Uygulama 4"
-        app:layout_constraintBottom_toTopOf="@+id/uyg5"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/uyg3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="1dp"
-        android:layout_marginBottom="11dp"
-        android:onClick="uyg3Goster"
-        android:text="Uygulama 3"
-        app:layout_constraintBottom_toTopOf="@+id/uyg4"
-        app:layout_constraintStart_toStartOf="@+id/uyg4" />
-
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="14dp"
-        android:onClick="uyg2Goster"
-        android:text="2.Uygulama"
-        app:layout_constraintBottom_toTopOf="@+id/uyg3"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/uyg7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="14dp"
-        android:onClick="uyg7Goster"
-        android:text="Uygulama  7"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uyg6" />
-
-    <Button
-        android:id="@+id/uyg8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="15dp"
-        android:onClick="uyg8Goster"
-        android:text="Uygulama 8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/uyg7" />
-
-    <Button
-        android:id="@+id/uyg9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="11dp"
-        android:onClick="uyg9Goster"
-        android:text="Uygulama 9"
-        app:layout_constraintBottom_toTopOf="@+id/uyg10"
-        app:layout_constraintEnd_toEndOf="@+id/uyg10" />
-
-    <Button
-        android:id="@+id/uyg10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:onClick="uyg10Goster"
-        android:text="Uygulama 10"
-        app:layout_constraintBottom_toTopOf="@+id/uyg11"
-        app:layout_constraintStart_toStartOf="@+id/uyg11" />
-
-    <Button
-        android:id="@+id/uyg11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginBottom="16dp"
-        android:onClick="uyg11Goster"
-        android:text="Uygulama 11"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/uyg12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="56dp"
-        android:onClick="uyg12Goster"
-        android:text="Uygulama12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="207dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg1Goster"
+                        android:text="@string/u5_uyg1" />
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg2Goster"
+                        android:text="@string/u5_uyg2" />
+
+                    <Button
+                        android:id="@+id/uyg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg3Goster"
+                        android:text="@string/u5_uyg3" />
+
+                    <Button
+                        android:id="@+id/uyg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg4Goster"
+                        android:text="@string/u5_uyg4" />
+
+                    <Button
+                        android:id="@+id/uyg5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/u5_uyg5" />
+
+                    <Button
+                        android:id="@+id/uyg6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg6Goster"
+                        android:text="@string/u5_uyg6" />
+
+                    <Button
+                        android:id="@+id/uyg7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg7Goster"
+                        android:text="@string/u5_uyg7" />
+
+                    <Button
+                        android:id="@+id/uyg8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg8Goster"
+                        android:text="@string/u5_uyg8" />
+
+                    <Button
+                        android:id="@+id/uyg9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg9Goster"
+                        android:text="@string/u5_uyg9" />
+
+                    <Button
+                        android:id="@+id/uyg10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:onClick="uyg10Goster"
+                        android:text="@string/u5_uyg10" />
+
+                    <Button
+                        android:id="@+id/uyg11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg11Goster"
+                        android:text="@string/u5_uyg11" />
+
+                    <Button
+                        android:id="@+id/uyg12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg12Goster"
+                        android:text="@string/u5_uyg12" />
+
+                    <Button
+                        android:id="@+id/uyg13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="uyg13Goster"
+                        android:text="@string/u5_uyg13" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Button" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+ </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

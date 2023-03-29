@@ -12,6 +12,7 @@ public class Uyg12 extends AppCompatActivity {
     Button buttonEkle;
     EditText editTextAd;
     ListView listViewAdlar;
+
     ArrayList<String> isimlerListesi = new ArrayList<>();
     ArrayAdapter<String> adapter;
 
@@ -19,7 +20,7 @@ public class Uyg12 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg12);
-        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, isimlerListesi);
+        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, isimlerListesi);
         buttonEkle = findViewById(R.id.buttonEkle);
         editTextAd = findViewById(R.id.editTextAd);
         listViewAdlar = findViewById(R.id.listViewAdlar);
@@ -30,5 +31,11 @@ public class Uyg12 extends AppCompatActivity {
             adapter.notifyDataSetChanged();
             editTextAd.getText().clear();
         });
+        listViewAdlar.setOnItemClickListener((adapterView, view, i, l) -> {
+            isimlerListesi.remove(i);
+            adapter.notifyDataSetChanged();
+        });
     }
 }
+
+

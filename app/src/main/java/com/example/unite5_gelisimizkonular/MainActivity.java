@@ -10,6 +10,7 @@ import com.example.unite5_gelisimizkonular.Uyg11.Uyg11;
 import com.example.unite5_gelisimizkonular.Uyg12.Uyg12;
 import com.example.unite5_gelisimizkonular.Uyg8.Uyg8;
 import com.example.unite5_gelisimizkonular.Uyg9.Uyg9;
+import com.example.unite5_gelisimizkonular.Uyg13.Uyg13;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -69,6 +70,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void uyg12Goster(View view) {
         Intent i = new Intent(MainActivity.this, Uyg12.class);
+        startActivity(i);
+    }
+
+    public void uyg13Goster(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg13.class);
         startActivity(i);
     }
 }

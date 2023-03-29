@@ -1,9 +1,14 @@
 package com.example.unite5_gelisimizkonular.Uyg11;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.example.unite5_gelisimizkonular.R;
 
 public class Uyg11 extends AppCompatActivity {
@@ -35,6 +40,16 @@ public class Uyg11 extends AppCompatActivity {
             }
             else{
                 textViewIndis.setText("Dizi dolu");
+
+                Context context = getApplicationContext();
+                CharSequence mesaj = "Daha fazla dizi eklenemez!!";
+                int sure = Toast.LENGTH_SHORT;
+
+                Toast toast = Toast.makeText(context, mesaj, sure);
+
+                toast.setGravity(Gravity.CENTER,500,300);//TOAST KONUM
+
+                toast.show();
             }
         });
         buttonSifirla.setOnClickListener(view -> {

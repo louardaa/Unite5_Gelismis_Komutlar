@@ -22,18 +22,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Uyg1" ></activity>
-        <activity android:name=".Uyg2"></activity>
-        <activity android:name=".Uyg3" ></activity>
-        <activity android:name=".Uyg4" ></activity>
-        <activity android:name=".Uyg5" ></activity>
-        <activity android:name=".Uyg6" ></activity>
-        <activity android:name=".Uyg7" ></activity>
-        <activity android:name=".Uyg8.Uyg8" ></activity>
-        <activity android:name=".Uyg9.Uyg9" ></activity>
-        <activity android:name=".Uyg10.Uyg10" ></activity>
-        <activity android:name=".Uyg11.Uyg11" ></activity>
-        <activity android:name=".Uyg12.Uyg12" ></activity>
+        <activity android:name=".Uyg1" android:label="@string/u5_uyg1">></activity>
+        <activity android:name=".Uyg2" android:label="@string/u5_uyg2">></activity>
+        <activity android:name=".Uyg3" android:label="@string/u5_uyg3">></activity>
+        <activity android:name=".Uyg4" android:label="@string/u5_uyg4">></activity>
+        <activity android:name=".Uyg5" android:label="@string/u5_uyg5">></activity>
+        <activity android:name=".Uyg6" android:label="@string/u5_uyg6">></activity>
+        <activity android:name=".Uyg7" android:label="@string/u5_uyg7">></activity>
+        <activity android:name=".Uyg8.Uyg8" android:label="@string/u5_uyg8">></activity>
+        <activity android:name=".Uyg9.Uyg9" android:label="@string/u5_uyg9">></activity>
+        <activity android:name=".Uyg10.Uyg10" android:label="@string/u5_uyg10">></activity>
+        <activity android:name=".Uyg11.Uyg11" android:label="@string/u5_uyg11">></activity>
+        <activity android:name=".Uyg12.Uyg12" android:label="@string/u5_uyg12">></activity>
+        <activity android:name=".Uyg13.Uyg13" android:label="@string/u5_uyg13"></activity>
+
 
 
 
